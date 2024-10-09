@@ -1,13 +1,11 @@
 {
-  "homepage":"https://varshini1425.github.io/reactReviewApp",
+ 
   "name": "review-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "server": "npx json-server db.json",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
